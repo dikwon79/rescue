@@ -1,0 +1,7765 @@
+{
+    "icons": {
+    "Points": [
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    1
+    ],
+    "id": "pin",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    1
+    ],
+    "id": "placemark2",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.20000000298023224,
+    1
+    ],
+    "id": "flag-1",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.20000000298023224,
+    1
+    ],
+    "id": "flag-2",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    }
+    ],
+    "ICS/Fire2 Hidden": [
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "pre-hydrant",
+    "title": "Fire Hydrant",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "pre-hydrant-black",
+    "title": "Fire Hydrant (Black Top)",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "pre-hydrant-blue",
+    "title": "Fire Hydrant (Blue Top)",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "pre-hydrant-green",
+    "title": "Fire Hydrant (Green Top)",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "pre-hydrant-orange",
+    "title": "Fire Hydrant (Orange Top)",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "pre-hydrant-red",
+    "title": "Fire Hydrant (Red Top)",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "pre-hydrant-private",
+    "title": "Fire Hydrant (Private)",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "pre-hydrant-public",
+    "title": "Fire Hydrant (Public)",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "pre-extinguisher",
+    "title": "Fire Extinguisher",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 26,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "pre-electrical-hazard",
+    "title": "Electrical Hazard",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "pre-electrical-vault",
+    "title": "Electrical Vault",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 26,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "pre-electrical-shutoff",
+    "title": "Electrical Shutoff",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "pre-pull-alarm",
+    "title": "Fire Alarm Station",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "pre-pull-suppression",
+    "title": "Special Suppression Pull Station",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": true,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "pre-fire-entry",
+    "title": "Fire Department Entry",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": true,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "pre-fire-exit",
+    "title": "Fire Department Exit",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "pre-fire-hose-rack",
+    "title": "Fire Hose on Rack",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "pre-fire-hose-cabinet",
+    "title": "Fire Hose in Cabinet",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "pre-sprinkler-isolationvalve",
+    "title": "Sprinkler Isolation Valve",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "pre-sprinkler-controlroom",
+    "title": "Sprinkler Control Room",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "pre-shutoff-gas",
+    "title": "Gas Shutoff",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "pre-shutoff-water",
+    "title": "Water Shutoff",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 18,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "pre-disabled",
+    "title": "Disabled",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 18,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "pre-elevator",
+    "title": "Elevator",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 24,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "pre-elevator-full",
+    "title": "Elevator (Full)",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 24,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "pre-elevator-converted",
+    "title": "Elevator (Converted)",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 18,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "pre-firstaid",
+    "title": "First Aid",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "pre-handset",
+    "title": "Handset",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "pre-hazardous",
+    "title": "Hazardous",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "pre-horn",
+    "title": "Air Horn",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "pre-lockbox",
+    "title": "Lockbox",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 18,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "pre-radiation",
+    "title": "Radiation",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 26,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "pre-nfpa-blank",
+    "title": "NFPA Placard",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 26,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "pre-tank-gas",
+    "title": "Gas Cylinder",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 18,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "pre-tank-propane",
+    "title": "Propane Tank",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "pre-water-source",
+    "title": "Water Source",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "pre-water-tank",
+    "title": "Water Tank",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": true,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "pre-building-fdc",
+    "title": "Fire Department Connection",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 18,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "pre-building-piv",
+    "title": "Post Indicator Valve",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "pre-building-door-double",
+    "title": "Door (Double)",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 18,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "pre-building-door-single",
+    "title": "Door (Single)",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "pre-building-door-overhead",
+    "title": "Door (Overhead)",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "pre-building-stairs1",
+    "title": "Stairs",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "pre-building-stairs2",
+    "title": "Stairs",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 26,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "pre-building-refuge",
+    "title": "Refuge",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 26,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "pre-building-roof-access",
+    "title": "Roof Access",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "pre-building-separation",
+    "title": "Separation",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 28,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "pre-text-cacf",
+    "title": "",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 28,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "pre-text-faap",
+    "title": "",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 28,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "pre-text-facp",
+    "title": "",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 28,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "pre-text-fap",
+    "title": "",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 28,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "pre-text-fdc",
+    "title": "",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "pre-text-fdkey",
+    "title": "",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 28,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "pre-text-fsp",
+    "title": "",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 28,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "pre-text-gen",
+    "title": "",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 28,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "pre-text-rhss",
+    "title": "",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 28,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "pre-text-riser",
+    "title": "",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    }
+    ],
+    "hidden": [
+    {
+    "rotatable": true,
+    "size": 22,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "wdir",
+    "title": "",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": true,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "aircraft-other",
+    "title": "",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": true,
+    "size": 38,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "aircraft-jet-four",
+    "title": "",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": true,
+    "size": 24,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "aircraft-piston-single",
+    "title": "",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": true,
+    "size": 32,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "aircraft-jet-twin",
+    "title": "",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": true,
+    "size": 28,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "aircraft-piston-twin",
+    "title": "",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": true,
+    "size": 36,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "aircraft-seaplane",
+    "title": "",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": true,
+    "size": 24,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "aircraft-helicopter",
+    "title": "",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": true,
+    "size": 24,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "aircraft-jet-single",
+    "title": "",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": true,
+    "size": 28,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "aircraft-turboprop-single",
+    "title": "",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": true,
+    "size": 28,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "aircraft-turboprop-twin",
+    "title": "",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "text",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "t",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "c",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": true,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "a",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "ring",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "circle",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "target",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "target1",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "target2",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "target3",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 12,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "point",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": true,
+    "size": 24,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "arrow0",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": true,
+    "size": 24,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "arrow1",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": true,
+    "size": 24,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "arrow2",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": true,
+    "size": 24,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "arrow3",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": true,
+    "size": 24,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "arrow4",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "difficulty-1",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "difficulty-2",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "difficulty-3",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "difficulty-4",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "difficulty-5",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "difficulty-6",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "difficulty-xc-1",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "difficulty-xc-3",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "difficulty-xc-5",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "aerial-hazard",
+    "title": "Aerial Hazard",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": true,
+    "size": 18,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "sector",
+    "title": "Sector Break",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": true,
+    "size": 18,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "division",
+    "title": "Division Break",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": true,
+    "size": 18,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "branch",
+    "title": "Branch Break",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": true,
+    "size": 18,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "zone",
+    "title": "Zone Break",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "parking",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "bathroom",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "bench",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "cliff",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "climbing-top",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "fire-hydrant",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "fire-station",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "ford",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "guidepost",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "information-board",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "monitoring-station",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "power-tower",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "turning-circle",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "place",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "skiing",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "xc",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "snowshoe",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "climbing",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "spelunking",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "windsurf",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "snorkel",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "hunting",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "mountainbike",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "bike",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "motorbike",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "car",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "snowmobile",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "camera",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "crossbones",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "antenna",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "avy1",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "binoculars",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "fire",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.20000000298023224,
+    1
+    ],
+    "id": "flag",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "plus",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "rescue",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "tent",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "waterfall",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "wetland",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "harbor",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "rocks",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "shelter",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "picnic",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "drinkingwater",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "nps-ski",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "nps-xc",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "nps-skate",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "nps-climbing",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "nps-scramble",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "nps-caving",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "nps-diving",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "nps-canoe",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "nps-roadbike",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "nps-dirtbike",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "nps-4wd",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "nps-snowmobile",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "nps-camera",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "nps-parking",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "nps-lookout",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "nps-lighthouse",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "nps-info",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "nps-phone",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "nps-gas",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "nps-firstaid",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "nps-fire",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "nps-shower",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "nps-anchor",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "nps-rockfall",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "nps-slip",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "nps-shelter",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "nps-picnic",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "nps-water",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 24,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "hexagon",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 24,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5699999928474426
+    ],
+    "id": "pentagon",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "square",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "circle",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "halo",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "square-rounded",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 26,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "diamond",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 28,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.6499999761581421
+    ],
+    "id": "triangle",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 28,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    1
+    ],
+    "id": "placemark",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "ics-b",
+    "title": "Incident Base",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "ics-c",
+    "title": "Camp",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "ics-f",
+    "title": "Fire Station",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "ics-h",
+    "title": "Helibase",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "ics-p",
+    "title": "Pump",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "ics-r",
+    "title": "Repeater Mobile Relay",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "ics-s",
+    "title": "Staging Area",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "ics-t",
+    "title": "Telephone",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "ics-w",
+    "title": "Water Source",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "ics-x",
+    "title": "Mobile Weather Unit",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 24,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "media",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 24,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "aperture",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": true,
+    "size": 24,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "broken-aperture",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": true,
+    "size": 24,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "broken-aperture-half-size",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": true,
+    "size": 24,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "directional-aperture",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": true,
+    "size": 24,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "unsynced-aperture",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": true,
+    "size": 24,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "unsynced-aperture-half-size",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    }
+    ],
+    "Recreation": [
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "hut",
+    "title": "Hut",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "lodging",
+    "title": "Lodging",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "leanto",
+    "title": "Lean-To",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "shelter-empty",
+    "title": "Shelter",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "shelter-picnic",
+    "title": "Picnic Shelter",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "picnicbench",
+    "title": "Picnic Table",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "camping",
+    "title": "Tent",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "campfire",
+    "title": "Campfire",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "flame",
+    "title": "Fire",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "photo",
+    "title": "Photo Location",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "radiotower",
+    "title": "Radio Tower",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "firelookout",
+    "title": "Fire Lookout",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "lighthouse",
+    "title": "Lighthouse",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "anchorage",
+    "title": "Anchorage",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "lifepreserver",
+    "title": "Life Preserver",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "marsh",
+    "title": "Marsh",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "waterfalls",
+    "title": "Waterfall",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "peak",
+    "title": "Mountain",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "drinking-water",
+    "title": "Drinkable Water",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "phone",
+    "title": "Phone",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "shower",
+    "title": "Shower",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "firstaidplus",
+    "title": "First Aid",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "binoc",
+    "title": "Binoculars",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "fuel",
+    "title": "Gas Station",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "info",
+    "title": "Information",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "automobile",
+    "title": "Car",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "4wd",
+    "title": "SUV",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "atv",
+    "title": "ATV",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "snowmobiling",
+    "title": "Snowmobile",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "snowmobiling-no",
+    "title": "Snowmobile",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "gate-side",
+    "title": "Gate",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    }
+    ],
+    "Recreation Hidden": [
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "bicycling-uphill",
+    "title": "Biking (uphill)",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "bicycling",
+    "title": "Biking",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "bicycling-downhill",
+    "title": "Biking (downhill)",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "bicycling-no",
+    "title": "No Bikes",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "hiking-uphill",
+    "title": "Hiking (uphill)",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "hiking",
+    "title": "Hiking",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "hiking-downhill",
+    "title": "Hiking (downhill)",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "snowshoeing",
+    "title": "Showshoeing",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "iceskating",
+    "title": "Ice Skating",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "skiing-xc",
+    "title": "Cross-Country Skiing",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "skiing-downhill",
+    "title": "Downhill Skiing",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "snowboarding",
+    "title": "Snowboarding",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "sledding",
+    "title": "Sledding",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "chairlift",
+    "title": "Chairlift",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "caving",
+    "title": "Caving",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "scrambling",
+    "title": "Scrambling",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "climbing-2",
+    "title": "Climbing",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "climbing-1",
+    "title": "Climbing",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "rappelling",
+    "title": "Rapelling",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "hanggliding",
+    "title": "Hang Gliding",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "paragliding",
+    "title": "Paragliding",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "canoeing-1",
+    "title": "Canoeing",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "river-rafting",
+    "title": "River Rafting",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "sailing",
+    "title": "Sailing",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "windsurfing",
+    "title": "Windsurfing",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "personal-watercraft",
+    "title": "Personal Watercraft",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "snorkeling",
+    "title": "Snorkeling",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "swimming",
+    "title": "Swimming",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "surfing",
+    "title": "Surfing",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "tidepool",
+    "title": "Tidepool",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "diving",
+    "title": "Diving",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "beach",
+    "title": "Beach",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "fishing",
+    "title": "Fishing",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "shooting",
+    "title": "Shooting",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    }
+    ],
+    "Evacuation": [
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "evac-knocked",
+    "title": "Notified (did not wait for response)",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "evac-noresponse",
+    "title": "No Response (followup needed)",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "evac-evacuating",
+    "title": "Evacuating",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "evac-assistance",
+    "title": "Needs Assistance",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "evac-staying",
+    "title": "Sheltering In Place",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "evac-animal",
+    "title": "Unattended Animal",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "evac-noaccess",
+    "title": "Residence Not Accessible",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "evac-noresidence",
+    "title": "No Residence Exists",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "reference-firestation",
+    "title": "Reference / Fire Station",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "reference-hospital",
+    "title": "Reference / Hospital",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "reference-residentonly",
+    "title": "Resident Only Access",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "reference-softclosure",
+    "title": "Soft Closure (uitility workers ok)",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "reference-hardclosure",
+    "title": "Hard Closure (first responders only)",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    }
+    ],
+    "ICS/Fire Hidden": [
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "repair-cleanup",
+    "title": "Repair / Cleanup",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "repair-culvert",
+    "title": "Repair / Culvert",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "repair-dozerpush",
+    "title": "Repair / Dozer Push",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "repair-fencecut",
+    "title": "Repair / Fence Cut",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "repair-hazardtree",
+    "title": "Repair / Hazard Tree",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "repair-landinglogdeck",
+    "title": "Repair / Landing Log Deck",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "repair-repairpoint",
+    "title": "Repair / Repair Point",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "repair-resourcelocation",
+    "title": "Repair / Resource Location",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "repair-roadrepair",
+    "title": "Repair / Road Repair",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "repair-cleanup",
+    "title": "Repair / Cleanup",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "repair-rtdinavoid",
+    "title": "Repair / RTD in Avoid",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "repair-streamcrossing",
+    "title": "Repair / Stream Crossing",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "repair-structwrap",
+    "title": "Repair / Struct Wrap",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "repair-waterdev",
+    "title": "Repair / Water Dev",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "safety-hazard",
+    "title": "Safety / Hazard",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.6499999761581421
+    ],
+    "id": "safetyzone",
+    "title": "Safety Zone",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "water-watersource",
+    "title": "Water / Source",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "water-restrictedwatersource",
+    "title": "Water / Restricted Source",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "retardant-pickup",
+    "title": "Retardant Pickup",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "retardant-mudpit",
+    "title": "Retardant Mud Pit",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 16,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "irdownlink",
+    "title": "IR Downlink",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "medevac-site",
+    "title": "Medevac Site",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "firstaid",
+    "title": "First Aid Site",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.20000000298023224,
+    1
+    ],
+    "id": "lookout",
+    "title": "Lookout",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.6499999761581421
+    ],
+    "id": "warning",
+    "title": "Warning",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": true,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "aerial-ignition",
+    "title": "Aerial Ignition",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "defensible-standalone",
+    "title": "Defensible Stand Alone",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "defensible-prep",
+    "title": "Defensible Prep and Leave",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "nondefensible-prep",
+    "title": "Non-Defensible Prep and Leave",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "nondefensible-rescue",
+    "title": "Non-Defensible Rescue Drive By",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "rangerstation",
+    "title": "Ranger Station",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": true,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "gate",
+    "title": "Gate",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    }
+    ],
+    "Letters": [
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "circle-a",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "circle-b",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "circle-c",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "circle-d",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "circle-e",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "circle-f",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "circle-g",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "circle-h",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "circle-i",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "circle-j",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "circle-k",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "circle-l",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "circle-m",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "circle-n",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "circle-o",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "circle-p",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "circle-q",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "circle-r",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "circle-s",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "circle-t",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "circle-u",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "circle-v",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "circle-w",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "circle-x",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "circle-y",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "circle-z",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "circle-1",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "circle-2",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "circle-3",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "circle-4",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "circle-5",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "circle-6",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "circle-7",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "circle-8",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "circle-9",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "circle-10",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    }
+    ],
+    "USAR": [
+    {
+    "rotatable": false,
+    "size": 26,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "usar-1",
+    "title": "Structure No Damage",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 26,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "usar-2",
+    "title": "Structure Damaged",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 26,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "usar-3",
+    "title": "Structure Failed",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 26,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "usar-4",
+    "title": "Structure Destroyed",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 26,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "usar-5",
+    "title": "Assisted",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 26,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "usar-6",
+    "title": "Evacuated",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 26,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "usar-7",
+    "title": "Rescued",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 26,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "usar-8",
+    "title": "Follow-Up Form",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 26,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "usar-9",
+    "title": "Victim Detected",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 26,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "usar-10",
+    "title": "Confirmed Victim",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 26,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "usar-11",
+    "title": "Human Remains",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 26,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "usar-12",
+    "title": "Human Remains Removed",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 26,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "usar-13",
+    "title": "Shelter in Place",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 26,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "usar-14",
+    "title": "Animal Issue",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 26,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "usar-15",
+    "title": "Fire Incident",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 26,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "usar-16",
+    "title": "Hazardous Material Incident",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 26,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "usar-17",
+    "title": "Targeted Search",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 26,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "usar-18",
+    "title": "Flood / Water Level",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "usar-19",
+    "title": "Helicopter Landing Site",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "usar-20",
+    "title": "Route Blocked",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 24,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5699999928474426
+    ],
+    "id": "usar-21",
+    "title": "Extra 21",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 24,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5699999928474426
+    ],
+    "id": "usar-22",
+    "title": "Extra 22",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 24,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5699999928474426
+    ],
+    "id": "usar-23",
+    "title": "Extra 23",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 24,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5699999928474426
+    ],
+    "id": "usar-24",
+    "title": "Extra 24",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 26,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "usar-search-recon",
+    "title": "Recon",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 26,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "usar-search-hasty",
+    "title": "Hasty",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 26,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "usar-search-primary",
+    "title": "Primary",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 26,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "usar-search-secondary-low",
+    "title": "Secondary Low",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 26,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "usar-search-secondary-high",
+    "title": "Secondary High",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    }
+    ],
+    "ICS/Fire": [
+    {
+    "rotatable": false,
+    "size": 18,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "cp",
+    "title": "Incident Command Post",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 18,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "clue",
+    "title": "Clue",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "heatsource",
+    "title": "Fire Origin",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "fire-hotspot",
+    "title": "Hot Spot",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": true,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.4000000059604645,
+    0.6000000238418579
+    ],
+    "id": "heatsource-outside",
+    "title": "Heat Source Outside Heat Line (deprecated)",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": true,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.800000011920929
+    ],
+    "id": "spot",
+    "title": "Spot Fire (deprecated)",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "fire",
+    "title": "Fire Location",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": true,
+    "size": 18,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "assignment-division",
+    "title": "Division Break",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": true,
+    "size": 18,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "assignment-branch",
+    "title": "Branch Break",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": true,
+    "size": 18,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "assignment-zone",
+    "title": "Zone Break",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "airops-hazard",
+    "title": "Air Ops / Hazard",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "airops-airport",
+    "title": "Air Ops / Airport",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "airops-checkpoint",
+    "title": "Air Ops / Checkpoint",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "airops-dip",
+    "title": "Air Ops / Dip",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "airops-helibase",
+    "title": "Air Ops / Helibase",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "airops-mrb",
+    "title": "Air Ops / MRB",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "airops-sling",
+    "title": "Air Ops / Sling",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "airops-unimproved",
+    "title": "Air Ops / Unimproved Landing",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 24,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "coms-repeater",
+    "title": "Comms / Repeater",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 24,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "coms-wifi",
+    "title": "Comms / Wifi",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 24,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "coms-wx",
+    "title": "Comms / Weather",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 18,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "logs-camp",
+    "title": "Logs / Camp",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 18,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "logs-closure",
+    "title": "Logs / Closure",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 18,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "logs-droppoint",
+    "title": "Logs / Drop Point",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 18,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "logs-medical",
+    "title": "Logs / Medical",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 18,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "logs-staging",
+    "title": "Logs / Staging",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 18,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "ops-lookout",
+    "title": "Ops / Lookout",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "reference-bridge",
+    "title": "Reference / Bridge",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "reference-firestation",
+    "title": "Reference / Fire Station",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "reference-gate",
+    "title": "Reference / Gate",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "reference-landmark",
+    "title": "Reference / Landmark",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "reference-other",
+    "title": "Reference / Other",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 22,
+    "colorable": false,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "reference-valueatrisk",
+    "title": "Reference / Value At Risk",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    }
+    ],
+    "Recreation2 Hidden": [
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "canoeing-2",
+    "title": "Canoeing",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "kayaking",
+    "title": "Kayaking",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "boatlaunch",
+    "title": "Boat Lauch",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "rockfall",
+    "title": "Rockfall",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "slip",
+    "title": "Slip hazard",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "cliff-edge",
+    "title": "Cliff Edge Stay Back",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "danger",
+    "title": "Danger",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "aed",
+    "title": "AED",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "atm",
+    "title": "ATM",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "busstop",
+    "title": "Bus Stop",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "construction",
+    "title": "Construction",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "dogs-offleash",
+    "title": "Dogs Off Leash",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "dogs-onleash",
+    "title": "Dogs On Leash",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "dogs-no",
+    "title": "No Dogs",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "horses-riding",
+    "title": "Horseback Riding",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "horses-no",
+    "title": "No Horses",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "electric-hookup",
+    "title": "Electric Hookup",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "electric-charging",
+    "title": "Electric Car Charging",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "foodservice",
+    "title": "Food Service",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "golf",
+    "title": "Golf",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "wheelchair",
+    "title": "Wheelchair Accessible",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "low-vision-access",
+    "title": "Low Vision Access",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "maps",
+    "title": "Maps",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "rangerstation2",
+    "title": "Ranger Station",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "recycling",
+    "title": "Recycling",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "rv-campground",
+    "title": "RV Campground",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "tramway",
+    "title": "Tramway",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "trashcan",
+    "title": "Trash Can",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "wifi",
+    "title": "Wi-Fi",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "airport",
+    "title": "Airport",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    },
+    {
+    "rotatable": false,
+    "size": 20,
+    "colorable": true,
+    "anchor": [
+    0.5,
+    0.5
+    ],
+    "id": "wilderness",
+    "title": "Wilderness",
+    "class": "Icon",
+    "updated": 0,
+    "folderId": null
+    }
+    ]
+    },
+    "map": {
+    "datum": "WGS84",
+    "default_zoom": 5,
+    "layers_grouping": {
+    "Live Satellites (pro)": [
+    "goestemp",
+    "goes",
+    "satday",
+    "sentinel"
+    ],
+    "Topographic Maps": [
+    "t",
+    "Forest Service",
+    "mbt",
+    "mbh",
+    "oo"
+    ],
+    "Slope Angle Shading": [
+    "sf",
+    "sg"
+    ],
+    "Contours": [
+    "c",
+    "cf40",
+    "cf10",
+    "cm20",
+    "cm5"
+    ],
+    "Street Maps": [
+    "mbr",
+    "om",
+    "oc"
+    ],
+    "Google Layers": [
+    "ter",
+    "map",
+    "sat",
+    "hyb"
+    ],
+    "Aerial Imagery": [
+    "NAIP",
+    "imagery"
+    ],
+    "Relief Shading": [
+    "Shaded Relief"
+    ],
+    "Other Maps": [
+    "m",
+    "faa",
+    "npmap",
+    "Historic"
+    ]
+    },
+    "default_lat": 38.8,
+    "coordinates": [
+    "DD",
+    "UTM"
+    ],
+    "layers": [
+    {
+    "template": "https://img.caltopo.com/tile/mbt/{Z}/{X}/{Y}{2x}.png",
+    "copyright": "CalTopo,<a href=\"http://www.openstreetmap.org/copyright\">OpenStreetMap contributors</a>",
+    "hideFromIndividuals": false,
+    "description": "",
+    "alphaOverlay": false,
+    "type": "TILE",
+    "hidpi": 2,
+    "restricted": false,
+    "name": "MapBuilder Topo",
+    "alias": "mbt",
+    "darkModeEnabled": true,
+    "opacity": 0,
+    "maxresolution": 0.50013757,
+    "minzoom": 0,
+    "info": "<a href=\"javascript:org.sarsoft.ShowMapBuilderDlg('Topo')\">MapBuilder Topo Info</a>"
+    },
+    {
+    "template": "https://img.caltopo.com/tile/mbh/{Z}/{X}/{Y}{2x}.png",
+    "copyright": "CalTopo,<a href=\"http://www.openstreetmap.org/copyright\">OpenStreetMap contributors</a>,<a target=\"_blank\" href=\"https://www.mapbox.com/about/maps/\">MapBox</a>,<a target=\"_blank\" href=\"https://www.maxar.com/\">Maxar</a>,USDA Farm Service Agency,<a target=\"_blank\" href=\"https://s2maps.eu\">EOX IT</a>, contains modified Copernicus data (2019)",
+    "hideFromIndividuals": false,
+    "description": "",
+    "alphaOverlay": false,
+    "type": "TILE",
+    "hidpi": 2,
+    "restricted": false,
+    "name": "MapBuilder Hybrid",
+    "alias": "mbh",
+    "darkModeEnabled": true,
+    "opacity": 0,
+    "maxresolution": 0.50013757,
+    "minzoom": 0,
+    "info": "<a href=\"javascript:org.sarsoft.ShowMapBuilderDlg('Hybrid')\">MapBuilder Hybrid Info</a>"
+    },
+    {
+    "template": "http://caltopo.s3.amazonaws.com/topo/{Z}/{X}/{Y}.png",
+    "copyright": "CalTopo,USGS,NZTopo CC-by-3.0-NZ,Kartverket,<a href=\"https://www.maanmittauslaitos.fi/en/opendata-licence-version1\">NLS Finland 2020</a>",
+    "hideFromIndividuals": false,
+    "description": "USGS 7.5' quads assembled from Cal-Atlas scans and USGS GeoPDFs.",
+    "alphaOverlay": false,
+    "type": "TILE",
+    "hidpi": 0,
+    "restricted": false,
+    "name": "Scanned Topos",
+    "alias": "t",
+    "darkModeEnabled": true,
+    "opacity": 0,
+    "maxresolution": 2.0005503,
+    "minzoom": 0
+    },
+    {
+    "template": "http://ctusfs.s3.amazonaws.com/2016a/{Z}/{X}/{Y}.png",
+    "copyright": "CalTopo,USFS",
+    "subgroup": "Forest Service",
+    "hideFromIndividuals": false,
+    "description": "Forest Service road and trail layer assembled from FSTopo PDFs.",
+    "alphaOverlay": false,
+    "type": "TILE",
+    "hidpi": 0,
+    "restricted": false,
+    "name": "FSTopo 2016 (green)",
+    "alias": "f16a",
+    "darkModeEnabled": true,
+    "opacity": 0,
+    "maxresolution": 2.0005503,
+    "minzoom": 0
+    },
+    {
+    "template": "http://ctusfs.s3.amazonaws.com/2016/{Z}/{X}/{Y}.png",
+    "copyright": "CalTopo,USFS",
+    "subgroup": "Forest Service",
+    "hideFromIndividuals": false,
+    "description": "Forest Service road and trail layer assembled from FSTopo PDFs.",
+    "alphaOverlay": false,
+    "type": "TILE",
+    "hidpi": 0,
+    "restricted": false,
+    "name": "FSTopo 2016 (white)",
+    "alias": "f16",
+    "darkModeEnabled": true,
+    "opacity": 0,
+    "maxresolution": 2.0005503,
+    "minzoom": 0
+    },
+    {
+    "template": "http://ctusfs.s3.amazonaws.com/fstopo/{Z}/{X}/{Y}.png",
+    "copyright": "CalTopo,USFS",
+    "subgroup": "Forest Service",
+    "hideFromIndividuals": false,
+    "description": "Forest Service road and trail layer assembled from FSTopo PDFs.",
+    "alphaOverlay": false,
+    "type": "TILE",
+    "hidpi": 0,
+    "restricted": false,
+    "name": "FSTopo 2013 (white)",
+    "alias": "f",
+    "darkModeEnabled": false,
+    "opacity": 0,
+    "maxresolution": 2.0005503,
+    "minzoom": 0
+    },
+    {
+    "template": "/tile/imagery/{Z}/{X}/{Y}{2x}.png",
+    "copyright": "CalTopo,<a target=\"_blank\" href=\"https://www.mapbox.com/about/maps/\">MapBox</a>,<a target=\"_blank\" href=\"https://www.maxar.com/\">Maxar</a>,USDA Farm Service Agency,<a target=\"_blank\" href=\"https://s2maps.eu\">EOX IT</a>, contains modified Copernicus data (2019)",
+    "hideFromIndividuals": false,
+    "description": "",
+    "alphaOverlay": false,
+    "type": "TILE",
+    "hidpi": 1,
+    "restricted": false,
+    "name": "Global Imagery",
+    "alias": "imagery",
+    "darkModeEnabled": false,
+    "opacity": 0,
+    "maxresolution": 0.25006878,
+    "minzoom": 0
+    },
+    {
+    "template": "/tile/n/{Z}/{X}/{Y}.png",
+    "copyright": "CalTopo,USDA Farm Service Agency",
+    "subgroup": "NAIP",
+    "hideFromIndividuals": false,
+    "description": "1m aerial imagery from the USDA.",
+    "alphaOverlay": false,
+    "type": "TILE",
+    "hidpi": 0,
+    "restricted": false,
+    "name": "2013-2015",
+    "alias": "n",
+    "darkModeEnabled": false,
+    "opacity": 0,
+    "maxresolution": 1.0002751,
+    "minzoom": 0
+    },
+    {
+    "template": "/tile/n1/{Z}/{X}/{Y}.png",
+    "copyright": "CalTopo,USDA Farm Service Agency",
+    "subgroup": "NAIP",
+    "hideFromIndividuals": false,
+    "description": "1m aerial imagery from the USDA.",
+    "alphaOverlay": false,
+    "type": "TILE",
+    "hidpi": 0,
+    "restricted": false,
+    "name": "2011-2013",
+    "alias": "n1",
+    "darkModeEnabled": false,
+    "opacity": 0,
+    "maxresolution": 1.0002751,
+    "minzoom": 0,
+    "info": "Imagery from 2009"
+    },
+    {
+    "template": "/tile/ir/{Z}/{X}/{Y}.png",
+    "copyright": "CalTopo,USDA Farm Service Agency",
+    "subgroup": "NAIP",
+    "hideFromIndividuals": false,
+    "description": "False color infrared from NAIP 4-channel imagery",
+    "alphaOverlay": false,
+    "type": "TILE",
+    "hidpi": 0,
+    "restricted": false,
+    "name": "False Color IR",
+    "alias": "ir",
+    "darkModeEnabled": false,
+    "opacity": 0,
+    "maxresolution": 1.0002751,
+    "minzoom": 0
+    },
+    {
+    "template": "/tile/hs_m315z45s3/{Z}/{X}/{Y}.png",
+    "copyright": "CalTopo,Kartverket,National Land Survey of Iceland,AW3D30 data courtesy of the JAXA (Japan Aerospace Exploration Agency)",
+    "subgroup": "Shaded Relief",
+    "hideFromIndividuals": false,
+    "description": "Relief shading based on the National Elevation Dataset with added vertical exaggeration.",
+    "alphaOverlay": false,
+    "type": "TILE",
+    "hidpi": -1,
+    "restricted": false,
+    "name": "Normal",
+    "alias": "r",
+    "darkModeEnabled": false,
+    "opacity": 0,
+    "maxresolution": 0.062517196,
+    "minzoom": 0
+    },
+    {
+    "template": "http://ctrelief.s3.amazonaws.com/relief/{Z}/{X}/{Y}.png",
+    "copyright": "CalTopo",
+    "subgroup": "Shaded Relief",
+    "hideFromIndividuals": false,
+    "description": "",
+    "alphaOverlay": false,
+    "type": "TILE",
+    "hidpi": 0,
+    "restricted": false,
+    "name": "Enhanced",
+    "alias": "r2",
+    "darkModeEnabled": false,
+    "opacity": 0,
+    "maxresolution": 0.062517196,
+    "minzoom": 0
+    },
+    {
+    "template": "http://ctrelief.s3.amazonaws.com/relief/{Z}/{X}/{Y}.png",
+    "copyright": "CalTopo",
+    "subgroup": "Shaded Relief",
+    "hideFromIndividuals": false,
+    "description": "",
+    "alphaOverlay": false,
+    "type": "TILE",
+    "hidpi": 0,
+    "restricted": false,
+    "name": "Terrain",
+    "alias": "r3",
+    "darkModeEnabled": false,
+    "opacity": 0,
+    "maxresolution": 0.062517196,
+    "minzoom": 0
+    },
+    {
+    "template": "google.maps.MapTypeId.ROADMAP",
+    "hideFromIndividuals": false,
+    "description": "",
+    "alphaOverlay": false,
+    "type": "NATIVE",
+    "hidpi": 0,
+    "restricted": false,
+    "name": "Map",
+    "alias": "map",
+    "darkModeEnabled": false,
+    "opacity": 0,
+    "maxresolution": 0,
+    "minzoom": 0
+    },
+    {
+    "template": "google.maps.MapTypeId.TERRAIN",
+    "hideFromIndividuals": false,
+    "description": "",
+    "alphaOverlay": false,
+    "type": "NATIVE",
+    "hidpi": 0,
+    "restricted": false,
+    "name": "Terrain",
+    "alias": "ter",
+    "darkModeEnabled": false,
+    "opacity": 0,
+    "maxresolution": 0,
+    "minzoom": 0
+    },
+    {
+    "template": "google.maps.MapTypeId.SATELLITE",
+    "hideFromIndividuals": false,
+    "description": "",
+    "alphaOverlay": false,
+    "type": "NATIVE",
+    "hidpi": 0,
+    "restricted": false,
+    "name": "Satellite",
+    "alias": "sat",
+    "darkModeEnabled": false,
+    "opacity": 0,
+    "maxresolution": 0,
+    "minzoom": 0
+    },
+    {
+    "template": "google.maps.MapTypeId.HYBRID",
+    "hideFromIndividuals": false,
+    "description": "",
+    "alphaOverlay": false,
+    "type": "NATIVE",
+    "hidpi": 0,
+    "restricted": false,
+    "name": "Hybrid",
+    "alias": "hyb",
+    "darkModeEnabled": false,
+    "opacity": 0,
+    "maxresolution": 0,
+    "minzoom": 0
+    },
+    {
+    "template": "https://img.caltopo.com/tile/mbr/{Z}/{X}/{Y}{2x}.png",
+    "copyright": "CalTopo,<a href=\"http://www.openstreetmap.org/copyright\">OpenStreetMap contributors</a>",
+    "hideFromIndividuals": false,
+    "description": "",
+    "alphaOverlay": false,
+    "type": "TILE",
+    "hidpi": 2,
+    "restricted": false,
+    "name": "MapBuilder Roads",
+    "alias": "mbr",
+    "darkModeEnabled": true,
+    "opacity": 0,
+    "maxresolution": 0.50013757,
+    "minzoom": 0
+    },
+    {
+    "template": "http://a.tile.openstreetmap.org/{Z}/{X}/{Y}.png",
+    "copyright": "<a href=\"http://www.openstreetmap.org/copyright\">OpenStreetMap contributors</a>",
+    "hideFromIndividuals": false,
+    "description": "OpenStreetMap",
+    "alphaOverlay": false,
+    "type": "TILE",
+    "hidpi": -1,
+    "restricted": false,
+    "name": "OpenStreetMap",
+    "alias": "om",
+    "darkModeEnabled": false,
+    "opacity": 0,
+    "maxresolution": 1.0002751,
+    "minzoom": 0
+    },
+    {
+    "template": "http://tile.thunderforest.com/cycle/{Z}/{X}/{Y}.png?apikey=fa7b604076d3407ca22564e186e2b9da",
+    "copyright": "<a href=\"http://www.thunderforest.com/\">Thunderforest</a>,<a href=\"http://www.openstreetmap.org/copyright\">OpenStreetMap contributors</a>",
+    "hideFromIndividuals": false,
+    "description": "OpenStreetMap data plus trails and contour lines.",
+    "alphaOverlay": false,
+    "type": "TILE",
+    "hidpi": -1,
+    "restricted": false,
+    "name": "OpenCycleMap",
+    "alias": "oc",
+    "darkModeEnabled": false,
+    "opacity": 0,
+    "maxresolution": 1.0002751,
+    "minzoom": 0
+    },
+    {
+    "template": "http://tile.thunderforest.com/outdoors/{Z}/{X}/{Y}.png?apikey=fa7b604076d3407ca22564e186e2b9da",
+    "copyright": "<a href=\"http://www.thunderforest.com/\">Thunderforest</a>,<a href=\"http://www.openstreetmap.org/copyright\">OpenStreetMap contributors</a>",
+    "hideFromIndividuals": false,
+    "description": "OpenStreetMap data plus trails and contour lines.",
+    "alphaOverlay": false,
+    "type": "TILE",
+    "hidpi": -1,
+    "restricted": false,
+    "name": "TF Outdoors",
+    "alias": "oo",
+    "darkModeEnabled": false,
+    "opacity": 0,
+    "maxresolution": 1.0002751,
+    "minzoom": 0
+    },
+    {
+    "template": "https://gis.charttools.noaa.gov/arcgis/rest/services/MCS/NOAAChartDisplay/MapServer/exts/MaritimeChartService/MapServer/export?dpi=96&transparent=true&format=PNG&bbox={left},{bottom},{right},{top}&bboxSR=EPSG:3857&imageSR=EPSG:3857&size={tilesize},{tilesize}&f=image&layers=show:0,1,2,3,4,5,6",
+    "copyright": "NOAA",
+    "hideFromIndividuals": false,
+    "description": "",
+    "alphaOverlay": false,
+    "type": "WMS",
+    "hidpi": 0,
+    "restricted": false,
+    "name": "Marine Charts",
+    "alias": "m",
+    "darkModeEnabled": false,
+    "opacity": 0,
+    "maxresolution": 4.0011005,
+    "minzoom": 6
+    },
+    {
+    "template": "http://ctfun.s3.amazonaws.com/faa/{Z}/{X}/{Y}.png",
+    "hideFromIndividuals": false,
+    "description": "",
+    "alphaOverlay": false,
+    "type": "TILE",
+    "hidpi": -1,
+    "restricted": false,
+    "name": "FAA Sectional",
+    "alias": "faa",
+    "darkModeEnabled": false,
+    "opacity": 0,
+    "maxresolution": 32.008804,
+    "minzoom": 5
+    },
+    {
+    "template": "http://ctfun.s3.amazonaws.com/1900/{Z}/{X}/{Y}.png",
+    "copyright": "CalTopo,USGS",
+    "subgroup": "Historic",
+    "hideFromIndividuals": false,
+    "description": "Scanned historical maps dating from 1885-1915.",
+    "alphaOverlay": false,
+    "type": "TILE",
+    "hidpi": 0,
+    "restricted": false,
+    "name": "1885-1915",
+    "alias": "1900",
+    "darkModeEnabled": false,
+    "opacity": 0,
+    "maxresolution": 8.002201,
+    "minzoom": 5,
+    "info": "Maps from 1885 to 1915"
+    },
+    {
+    "template": "http://ctfun.s3.amazonaws.com/1930/{Z}/{X}/{Y}.png",
+    "copyright": "CalTopo,USGS",
+    "subgroup": "Historic",
+    "hideFromIndividuals": false,
+    "description": "Scanned historical maps dating from 1915-1945.  Maps may contain survey data from prior to 1915.",
+    "alphaOverlay": false,
+    "type": "TILE",
+    "hidpi": 0,
+    "restricted": false,
+    "name": "1915-1945",
+    "alias": "1930",
+    "darkModeEnabled": false,
+    "opacity": 0,
+    "maxresolution": 8.002201,
+    "minzoom": 6,
+    "info": "Maps from 1915 to 1945"
+    },
+    {
+    "template": "/tile/sentinel_{V}/{Z}/{X}/{Y}.png",
+    "copyright": "Contains modified Copernicus data (2019)",
+    "hideFromIndividuals": false,
+    "configurations": [
+    [
+    [
+    "tc",
+    "True Color"
+    ],
+    [
+    "fc",
+    "False Color Red"
+    ],
+    [
+    "ag",
+    "False Color Green"
+    ],
+    [
+    "burn",
+    "False Color Burn"
+    ]
+    ],
+    [
+    [
+    "0",
+    "Latest"
+    ],
+    [
+    "{year:2017}",
+    "2017"
+    ]
+    ]
+    ],
+    "description": "",
+    "alphaOverlay": false,
+    "type": "TILE",
+    "hidpi": -1,
+    "restricted": true,
+    "name": "Sentinel Weekly",
+    "alias": "sentinel",
+    "darkModeEnabled": false,
+    "opacity": 0,
+    "maxresolution": 8.002201,
+    "minzoom": 2,
+    "info": ""
+    },
+    {
+    "template": "/tile/satday_{V}/{Z}/{X}/{Y}.png",
+    "copyright": "NASA",
+    "hideFromIndividuals": false,
+    "configurations": [
+    [
+    [
+    "a",
+    "Aqua Daily"
+    ],
+    [
+    "t",
+    "Terra Daily"
+    ],
+    [
+    "v",
+    "Suomi Daily"
+    ],
+    [
+    "n",
+    "NOAA20 Daily"
+    ],
+    [
+    "vn",
+    "Suomi Nightly"
+    ]
+    ],
+    [
+    [
+    "99999",
+    "Latest (any sat)"
+    ],
+    [
+    "0",
+    "Today"
+    ],
+    [
+    "1",
+    "Yesterday"
+    ],
+    [
+    "2",
+    "2 Days Ago"
+    ],
+    [
+    "3",
+    "3 Days Ago"
+    ],
+    [
+    "4",
+    "4 Days Ago"
+    ],
+    [
+    "5",
+    "5 Days Ago"
+    ],
+    [
+    "6",
+    "6 Days Ago"
+    ],
+    [
+    "7",
+    "1 Week Ago"
+    ],
+    [
+    "{year:2013}",
+    "2013"
+    ]
+    ]
+    ],
+    "description": "",
+    "alphaOverlay": false,
+    "type": "TILE",
+    "hidpi": -1,
+    "restricted": true,
+    "name": "MODIS Daily",
+    "alias": "satday",
+    "darkModeEnabled": false,
+    "opacity": 0,
+    "maxresolution": 256.07043,
+    "minzoom": 2
+    },
+    {
+    "template": "/tile/goes_{V}/{Z}/{X}/{Y}{2x}.png",
+    "refreshInterval": {
+    "0": 120
+    },
+    "hideFromIndividuals": false,
+    "configurations": [
+    [
+    [
+    "0",
+    "Latest (auto refreshing)"
+    ],
+    [
+    "{7day}",
+    "7day"
+    ]
+    ]
+    ],
+    "description": "",
+    "alphaOverlay": false,
+    "type": "TILE",
+    "hidpi": 1,
+    "restricted": true,
+    "name": "GOES Live",
+    "alias": "goes",
+    "darkModeEnabled": false,
+    "opacity": 0,
+    "maxresolution": 256.07043,
+    "minzoom": 0
+    },
+    {
+    "template": "/tile/goestemp_{V}/{Z}/{X}/{Y}{2x}.png",
+    "refreshInterval": {
+    "0": 120
+    },
+    "hideFromIndividuals": false,
+    "configurations": [
+    [
+    [
+    "0",
+    "Latest (auto refreshing)"
+    ],
+    [
+    "{7day}",
+    "7day"
+    ]
+    ]
+    ],
+    "description": "",
+    "alphaOverlay": false,
+    "type": "TILE",
+    "hidpi": 1,
+    "restricted": true,
+    "name": "GOES Temperature",
+    "alias": "goestemp",
+    "darkModeEnabled": false,
+    "opacity": 0,
+    "maxresolution": 256.07043,
+    "minzoom": 0,
+    "info": "Experimental layer, red is hotter, white is hottest"
+    },
+    {
+    "template": "/tile/mb_clear-0-0-c22BB6100/{Z}/{X}/{Y}{2x}.png",
+    "copyright": "CalTopo",
+    "hideFromIndividuals": false,
+    "description": "Mixed",
+    "alphaOverlay": true,
+    "type": "TILE",
+    "hidpi": 2,
+    "restricted": false,
+    "name": "Mixed",
+    "alias": "c",
+    "darkModeEnabled": false,
+    "opacity": 100,
+    "maxresolution": 0.062517196,
+    "minzoom": 0
+    },
+    {
+    "template": "/tile/mb_clear-0-0-c22BB6100f/{Z}/{X}/{Y}{2x}.png",
+    "copyright": "CalTopo",
+    "hideFromIndividuals": false,
+    "description": "40 Foot Contours",
+    "alphaOverlay": true,
+    "type": "TILE",
+    "hidpi": 2,
+    "restricted": false,
+    "name": "40 Foot",
+    "alias": "cf40",
+    "darkModeEnabled": false,
+    "opacity": 100,
+    "maxresolution": 0.062517196,
+    "minzoom": 0
+    },
+    {
+    "template": "/tile/mb_clear-0-0-c32BB6100f/{Z}/{X}/{Y}{2x}.png",
+    "copyright": "CalTopo",
+    "hideFromIndividuals": false,
+    "description": "10 Foot Contours",
+    "alphaOverlay": true,
+    "type": "TILE",
+    "hidpi": 2,
+    "restricted": false,
+    "name": "10 Foot",
+    "alias": "cf10",
+    "darkModeEnabled": false,
+    "opacity": 100,
+    "maxresolution": 0.062517196,
+    "minzoom": 0
+    },
+    {
+    "template": "/tile/mb_clear-0-0-c22BB6100m/{Z}/{X}/{Y}{2x}.png",
+    "copyright": "CalTopo",
+    "hideFromIndividuals": false,
+    "description": "20 Meter Contours",
+    "alphaOverlay": true,
+    "type": "TILE",
+    "hidpi": 2,
+    "restricted": false,
+    "name": "20 Meter",
+    "alias": "cm20",
+    "darkModeEnabled": false,
+    "opacity": 100,
+    "maxresolution": 0.062517196,
+    "minzoom": 0
+    },
+    {
+    "template": "/tile/mb_clear-0-0-c32BB6100m/{Z}/{X}/{Y}{2x}.png",
+    "copyright": "CalTopo",
+    "hideFromIndividuals": false,
+    "description": "5 Meter Contours",
+    "alphaOverlay": true,
+    "type": "TILE",
+    "hidpi": 2,
+    "restricted": false,
+    "name": "5 Meter",
+    "alias": "cm5",
+    "darkModeEnabled": false,
+    "opacity": 100,
+    "maxresolution": 0.062517196,
+    "minzoom": 0
+    },
+    {
+    "template": "https://img.caltopo.com/tile/mba/{Z}/{X}/{Y}{2x}.png",
+    "copyright": "CalTopo,<a href=\"http://www.openstreetmap.org/copyright\">OpenStreetMap contributors</a>",
+    "hideFromIndividuals": false,
+    "description": "",
+    "alphaOverlay": true,
+    "type": "TILE",
+    "hidpi": 2,
+    "restricted": false,
+    "name": "MapBuilder Overlay",
+    "alias": "mba",
+    "darkModeEnabled": false,
+    "opacity": 100,
+    "maxresolution": 0.50013757,
+    "minzoom": 0
+    },
+    {
+    "template": "/tile/sc_fixed/{Z}/{X}/{Y}.png",
+    "copyright": "CalTopo",
+    "hideFromIndividuals": false,
+    "description": "Slope shading by angle.  May be useful for travel planning in avalanche terrain when coupled with a healthy dose of skepticism.",
+    "alphaOverlay": true,
+    "type": "TILE",
+    "hidpi": 0,
+    "restricted": false,
+    "name": "Fixed",
+    "alias": "sf",
+    "darkModeEnabled": false,
+    "opacity": 30,
+    "maxresolution": 2,
+    "minzoom": 0,
+    "info": "<div style='display: inline-block; color: rgb(245,255,10); background-color: #CCCCCC; margin-left: 5px'>27&deg;-29&deg;</div><div style='display: inline-block; color: rgb(250,183,0); margin-left: 5px'>30&deg;-31&deg;</div><div style='display: inline-block; color: rgb(254,121,0); margin-left: 5px'>32&deg;-34&deg;</div><div style='display: inline-block; color: rgb(255,0,0); margin-left: 5px'>35&deg;-45&deg;</div><div style='display: inline-block; color: rgb(135,0,225); margin-left: 5px'>46&deg;-50&deg;</div><div style='display: inline-block; color: rgb(0,0,255); margin-left: 5px'>51&deg;-59&deg;</div><div style='display: inline-block; color: rgb(0,0,0); margin-left: 5px'>60&deg;+</div>"
+    },
+    {
+    "template": "/tile/sc_gradient/{Z}/{X}/{Y}.png",
+    "copyright": "CalTopo",
+    "hideFromIndividuals": false,
+    "description": "Slope gradient by angle.",
+    "alphaOverlay": true,
+    "type": "TILE",
+    "hidpi": 0,
+    "restricted": false,
+    "name": "Gradient",
+    "alias": "sg",
+    "darkModeEnabled": false,
+    "opacity": 30,
+    "maxresolution": 2,
+    "minzoom": 0,
+    "info": "<span style='color: rgb(0,255,9); margin-left: 5px'>20&deg;</span><span style='color: rgb(245,255,10); background-color: #CCCCCC; margin-left: 5px'>28&deg;</span><span style='color: rgb(255,0,0); margin-left: 5px'>40&deg;</span><span style='color: rgb(0,0,255); margin-left: 5px'>55&deg;</span><span style='color: rgb(0,0,0); margin-left: 5px'>60&deg;</span>"
+    },
+    {
+    "template": "/tile/geology/{Z}/{X}/{Y}{2x}.png",
+    "copyright": "CalTopo,USGS",
+    "hideFromIndividuals": false,
+    "description": "",
+    "alphaOverlay": true,
+    "type": "TILE",
+    "hidpi": 2,
+    "restricted": false,
+    "name": "Geology",
+    "alias": "geology",
+    "darkModeEnabled": false,
+    "opacity": 100,
+    "maxresolution": 2.0005503,
+    "minzoom": 0,
+    "info": "<a href=\"javascript:org.sarsoft.ShowGeologyDlg()\">Geology Info</a>"
+    },
+    {
+    "template": "/tile/sma/{Z}/{X}/{Y}{2x}.png",
+    "copyright": "CalTopo,DOI,BLM",
+    "hideFromIndividuals": false,
+    "description": "",
+    "alphaOverlay": true,
+    "type": "TILE",
+    "hidpi": 2,
+    "restricted": false,
+    "name": "Public Lands",
+    "alias": "sma",
+    "darkModeEnabled": false,
+    "opacity": 100,
+    "maxresolution": 2.0005503,
+    "minzoom": 6,
+    "info": "<div style='display: inline-block; color: #00CC00; margin-left: 5px'>USFS</div><div style='display: inline-block; color: #D062D0; margin-left: 5px'>NPS</div><div style='display: inline-block; color: #EB5B1E; margin-left: 5px'>BLM/BOR</div><div style='display: inline-block; color: #F8F32B; margin-left: 5px'>FWS</div><div style='display: inline-block; color: #434375; margin-left: 5px'>Local</div><div style='display: inline-block; color: #0000CC; margin-left: 5px'>State</div><div style='display: inline-block; color: #118AB2; margin-left: 5px'>Tribal</div><div style='display: inline-block; color: #000000; margin-left: 5px'>DOD/DOE</div>"
+    },
+    {
+    "template": "/tile/parcel_{V}/{Z}/{X}/{Y}{2x}.png",
+    "copyright": "Parcels (c) LandGrid.com",
+    "hideFromIndividuals": false,
+    "configurations": [
+    [
+    [
+    "la",
+    "Site Address"
+    ],
+    [
+    "lo",
+    "Ownership"
+    ],
+    [
+    "ln",
+    "Parcel Number"
+    ],
+    [
+    "l",
+    "Boundaries Only"
+    ]
+    ]
+    ],
+    "description": "",
+    "alphaOverlay": true,
+    "type": "TILE",
+    "hidpi": 2,
+    "restricted": true,
+    "name": "Parcel Data",
+    "alias": "parcel",
+    "darkModeEnabled": false,
+    "opacity": 100,
+    "maxresolution": 0.062517196,
+    "minzoom": 5
+    },
+    {
+    "template": "/tile/mb_structures/{Z}/{X}/{Y}{2x}.png",
+    "copyright": "Microsoft,CalTopo",
+    "hideFromIndividuals": false,
+    "description": "",
+    "alphaOverlay": true,
+    "type": "TILE",
+    "hidpi": 2,
+    "restricted": false,
+    "name": "Structures",
+    "alias": "structures",
+    "darkModeEnabled": false,
+    "opacity": 100,
+    "maxresolution": 0.50013757,
+    "minzoom": 0
+    },
+    {
+    "template": "/tile/mvum/{Z}/{X}/{Y}{2x}.png",
+    "copyright": "CalTopo,USFS,BLM",
+    "hideFromIndividuals": false,
+    "description": "",
+    "alphaOverlay": true,
+    "type": "TILE",
+    "hidpi": 2,
+    "restricted": false,
+    "name": "Motor Vehicle MVUM",
+    "alias": "mvum",
+    "darkModeEnabled": false,
+    "opacity": 100,
+    "maxresolution": 0.50013757,
+    "minzoom": 0,
+    "info": "<a href=\"javascript:org.sarsoft.ShowMVUMDlg()\">MVUM Info</a>"
+    },
+    {
+    "template": "/tile/rec_{V}/{Z}/{X}/{Y}{2x}.png",
+    "copyright": "CalTopo,OpenStreetMap Contributors",
+    "hideFromIndividuals": false,
+    "configurations": [
+    [
+    [
+    "s",
+    "Ski"
+    ],
+    [
+    "b",
+    "Mountain Bike"
+    ]
+    ]
+    ],
+    "description": "",
+    "alphaOverlay": true,
+    "type": "TILE",
+    "hidpi": 1,
+    "restricted": false,
+    "name": "Recreation",
+    "alias": "rec",
+    "darkModeEnabled": false,
+    "opacity": 100,
+    "maxresolution": 0.50013757,
+    "minzoom": 10,
+    "info": "<a href=\"javascript:org.sarsoft.ShowRecDlg()\">Recreation Info</a>"
+    },
+    {
+    "template": "/tile/fire_{V}/{Z}/{X}/{Y}{2x}.png",
+    "hideFromIndividuals": false,
+    "configurations": [
+    [
+    [
+    "recent",
+    "2000-Present"
+    ],
+    [
+    "all",
+    "1900-Present"
+    ]
+    ]
+    ],
+    "description": "",
+    "alphaOverlay": true,
+    "type": "TILE",
+    "hidpi": 2,
+    "restricted": false,
+    "name": "Fire History",
+    "alias": "fire",
+    "darkModeEnabled": false,
+    "opacity": 100,
+    "maxresolution": 2.0005503,
+    "minzoom": 6,
+    "info": "<span style='color: #B338FF; margin-left: 5px'>1900-24</span><span style='color: #0000FF; margin-left: 5px'>1925-49</span><span style='color: #0090CC; margin-left: 5px'>1950-74</span><span style='color: #00FF80; margin-left: 5px; background-color: #CCCCCC'>1975-1999</span><span style='color: #F0F000; margin-left: 5px; background-color: #CCCCCC'>2000-06</span><span style='color: #FAB700; margin-left: 5px'>07-11</span><span style='color: #FE7900; margin-left: 5px'>12-16</span><span style='color: #CC0000; margin-left: 5px'>17-2022</span>"
+    },
+    {
+    "template": "https://img.caltopo.com/tile/modis_{V}/{Z}/{X}/{Y}{2x}.png",
+    "copyright": "CalTopo,RSAC,NASA",
+    "refreshInterval": {
+    "mpg": 120,
+    "g": 120
+    },
+    "hideFromIndividuals": false,
+    "configurations": [
+    [
+    [
+    "mp",
+    "MODIS+VIIRS"
+    ],
+    [
+    "g",
+    "GOES Heat"
+    ],
+    [
+    "d",
+    "GOES Detections"
+    ],
+    [
+    "mpg",
+    "All Satellites"
+    ],
+    [
+    "vp",
+    "VIIRS 375m"
+    ],
+    [
+    "h",
+    "VIIRS Progression"
+    ],
+    [
+    "p",
+    "Perimeters Only"
+    ]
+    ]
+    ],
+    "description": "",
+    "alphaOverlay": true,
+    "type": "TILE",
+    "hidpi": 1,
+    "restricted": false,
+    "name": "Fire Activity",
+    "alias": "modis",
+    "darkModeEnabled": false,
+    "opacity": 100,
+    "maxresolution": 0.50013757,
+    "minzoom": 0,
+    "info": "<a href=\"javascript:org.sarsoft.ShowFireDlg()\">Fire Info</a>"
+    },
+    {
+    "template": "https://img.caltopo.com/tile/sl_{V}/{Z}/{X}/{Y}.png",
+    "hideFromIndividuals": false,
+    "configurations": [
+    [
+    [
+    "today",
+    "Today"
+    ],
+    [
+    "0115",
+    "Jan"
+    ],
+    [
+    "0215",
+    "Feb"
+    ],
+    [
+    "0315",
+    "Mar"
+    ],
+    [
+    "0415",
+    "Apr"
+    ],
+    [
+    "0515",
+    "May"
+    ],
+    [
+    "0615",
+    "Jun"
+    ],
+    [
+    "0715",
+    "Jul"
+    ],
+    [
+    "0815",
+    "Aug"
+    ],
+    [
+    "0915",
+    "Sep"
+    ],
+    [
+    "1015",
+    "Oct"
+    ],
+    [
+    "1115",
+    "Nov"
+    ],
+    [
+    "1215",
+    "Dec"
+    ]
+    ],
+    [
+    [
+    "{timeofday}",
+    "timeofday"
+    ]
+    ]
+    ],
+    "description": "",
+    "alphaOverlay": true,
+    "type": "TILE",
+    "hidpi": -1,
+    "restricted": false,
+    "name": "Sun Exposure",
+    "alias": "sld",
+    "darkModeEnabled": false,
+    "opacity": 30,
+    "maxresolution": 8,
+    "minzoom": 5
+    },
+    {
+    "template": "https://img.caltopo.com/tile/wxv_{V}/{Z}/{X}/{Y}.png",
+    "hideFromIndividuals": false,
+    "configurations": [
+    [
+    [
+    "mint24",
+    "24hr Low"
+    ],
+    [
+    "maxt24",
+    "24hr High"
+    ],
+    [
+    "qpf24",
+    "24hr Precip"
+    ],
+    [
+    "qpf48",
+    "48hr Precip"
+    ],
+    [
+    "snow24",
+    "24hr Snowfall"
+    ],
+    [
+    "snow48",
+    "48hr Snowfall"
+    ],
+    [
+    "wspd12",
+    "12hr Max Wind"
+    ],
+    [
+    "wspd24",
+    "24hr Max Wind"
+    ],
+    [
+    "wspd36",
+    "36hr Max Wind"
+    ],
+    [
+    "wgust12",
+    "12hr Max Gust"
+    ],
+    [
+    "wgust24",
+    "24hr Max Gust"
+    ],
+    [
+    "wgust36",
+    "36hr Max Gust"
+    ]
+    ]
+    ],
+    "description": "",
+    "alphaOverlay": true,
+    "type": "TILE",
+    "hidpi": -1,
+    "restricted": false,
+    "name": "Weather Shading",
+    "alias": "wxv",
+    "darkModeEnabled": false,
+    "opacity": 100,
+    "maxresolution": 8.002201,
+    "minzoom": 5,
+    "info": "{\"mint24-maxt24\":\"<span style='margin-left: 5px'>-30&deg;F</span><span style='color: rgb(135,0,255); margin-left: 5px'>-10&deg;</span><span style='color: rgb(0,0,255); margin-left: 5px'>10&deg;</span><span style='color: rgb(134,207,255); margin-left: 5px'>30&deg;</span><span style='color: rgb(0,255,0); margin-left: 5px'>35&deg;</span><span style='color: rgb(240,240,0); margin-left: 5px'>55&deg;</span><span style='color: rgb(255,170,0); margin-left: 5px'>75&deg;</span><span style='color: rgb(255,0,0); margin-left: 5px'>95&deg;</span><span style='color: rgb(135,0,255); margin-left: 5px'>115&deg;F</span>\",\"qpf24-qpf48\":\"<span style='color: rgb(176,224,255)'>0.05in</span><span style='color: rgb(0,0,255); margin-left: 5px'>1in</span><span style='color: rgb(162,0,255); margin-left: 5px'>2in</span><span style='color: rgb(0,0,0); margin-left: 5px'>4in</span><span style='color: rgb(175,175,175); margin-left: 5px'>6in</span>\",\"snow24-snow48\":\"<span style='color: rgb(176,224,255)'>.5in</span><span style='color: rgb(0,0,255); margin-left: 5px'>12in</span><span style='color: rgb(162,0,255); margin-left: 5px'>24in</span><span style='color: rgb(0,0,0); margin-left: 5px'>48in</span><span style='color: rgb(175,175,175); margin-left: 5px'>72in</span>\",\"wspd12-wspd24-wspd36-wgust12-wgust24-wgust36\":\"<span style='color: rgb(0,255,0); margin-left: 5px'>10mph</span><span style='color: rgb(220,220,0); margin-left: 5px'> 20mph</span><span style='color: rgb(255,170,0); margin-left: 5px'> 30mph</span><span style='color: rgb(255,0,0); margin-left: 5px'> 40mph</span><span style='color: rgb(135,0,255); margin-left: 5px'> 50mph</span><span style='color: rgb(0,0,255); margin-left: 5px'> 60mph</span><span style='color: rgb(0,0,0); margin-left: 5px'> 70+mph</span>\"}"
+    },
+    {
+    "template": "https://img.caltopo.com/tile/wxd_{V}/{Z}/{X}/{Y}.png",
+    "hideFromIndividuals": false,
+    "configurations": [
+    [
+    [
+    "wspd",
+    "Speed"
+    ],
+    [
+    "wgust",
+    "Gust"
+    ]
+    ],
+    [
+    [
+    "01",
+    "Now"
+    ],
+    [
+    "03",
+    "+3 hr"
+    ],
+    [
+    "06",
+    "+6 hr"
+    ],
+    [
+    "09",
+    "+9 hr"
+    ],
+    [
+    "12",
+    "+12 hr"
+    ],
+    [
+    "18",
+    "+18 hr"
+    ],
+    [
+    "24",
+    "+24 hr"
+    ],
+    [
+    "30",
+    "+30 hr"
+    ],
+    [
+    "36",
+    "+36 hr"
+    ]
+    ]
+    ],
+    "description": "",
+    "alphaOverlay": true,
+    "type": "TILE",
+    "hidpi": -1,
+    "restricted": false,
+    "name": "Wind Plot",
+    "alias": "wxd",
+    "darkModeEnabled": false,
+    "opacity": 100,
+    "maxresolution": 2.0005503,
+    "minzoom": 5,
+    "info": "<span style=\"color: rgb(0,205,0); margin-left: 5px\">10mph</span><span style=\"color: rgb(220,220,0); margin-left: 5px\"> 20mph</span><span style=\"color: rgb(255,170,0); margin-left: 5px\"> 30mph</span><span style=\"color: rgb(255,0,0); margin-left: 5px\"> 40mph</span><span style=\"color: rgb(135,0,255); margin-left: 5px\"> 50mph</span><span style=\"color: rgb(0,0,255); margin-left: 5px\"> 60mph</span><span style=\"color: rgb(0,0,0); margin-left: 5px\"> 70+mph</span>"
+    },
+    {
+    "template": "org.sarsoft.SynopticOverlay",
+    "hideFromIndividuals": false,
+    "configurations": [
+    [
+    [
+    "temp",
+    "Temperature"
+    ],
+    [
+    "wind",
+    "Wind"
+    ],
+    [
+    "water",
+    "Water"
+    ],
+    [
+    "snowpack",
+    "Snowpack"
+    ],
+    [
+    "aqi",
+    "Air Quality"
+    ]
+    ]
+    ],
+    "description": "",
+    "alphaOverlay": true,
+    "type": "DATA",
+    "hidpi": 0,
+    "restricted": true,
+    "name": "Weather Stations",
+    "alias": "wx",
+    "darkModeEnabled": false,
+    "opacity": 100,
+    "maxresolution": 0.062517196,
+    "minzoom": 5,
+    "info": "<a href=\"javascript:org.sarsoft.ShowSynopticDlg()\">Weather Info</a>"
+    },
+    {
+    "template": "org.sarsoft.ADSBOverlay",
+    "hideFromIndividuals": false,
+    "configurations": [
+    [
+    [
+    "all",
+    "All"
+    ],
+    [
+    "low",
+    "Low Flying"
+    ],
+    [
+    "heli",
+    "Helicopters"
+    ],
+    [
+    "jets",
+    "Jets"
+    ],
+    [
+    "nojets",
+    "No Jets"
+    ]
+    ]
+    ],
+    "description": "",
+    "alphaOverlay": true,
+    "type": "DATA",
+    "hidpi": 0,
+    "restricted": true,
+    "name": "Aircraft",
+    "alias": "adsb",
+    "darkModeEnabled": false,
+    "opacity": 100,
+    "maxresolution": 0.062517196,
+    "minzoom": 5,
+    "info": "<div style='display: inline-block; color: #737373'>N/A</div><div style='display: inline-block; color: #F18A1F; margin-left: 5px'>1000ft</div><div style='display: inline-block; color: #F0A918; margin-left: 5px'>2000ft</div><div style='display: inline-block; color: #D9C10D; margin-left: 5px'>4000ft</div><div style='display: inline-block; color: #9CC80B; margin-left: 5px'>6000ft</div><div style='display: inline-block; color: #1CBC72; margin-left: 5px'>10k</div><div style='display: inline-block; color: #2270E0; margin-left: 5px'>20k</div><div style='display: inline-block; color: #8122E1; margin-left: 5px'>40k</div>"
+    },
+    {
+    "template": "org.sarsoft.AvalancheOverlay",
+    "copyright": "<a href=\"https://avalanche.org/\">A3</a>,<a href=\"https://www.avalanche.ca/\">AvCan</a>",
+    "hideFromIndividuals": false,
+    "description": "",
+    "alphaOverlay": true,
+    "type": "DATA",
+    "hidpi": 0,
+    "restricted": false,
+    "name": "Avalanche",
+    "alias": "avy",
+    "darkModeEnabled": false,
+    "opacity": 100,
+    "maxresolution": 0.062517196,
+    "minzoom": 5
+    },
+    {
+    "template": "org.sarsoft.MyMapsOverlay",
+    "hideFromIndividuals": false,
+    "configurations": [
+    [
+    [
+    "all",
+    "All Data"
+    ],
+    [
+    "tracks",
+    "Tracks Only"
+    ]
+    ]
+    ],
+    "description": "",
+    "alphaOverlay": true,
+    "type": "DATA",
+    "iterations": "user",
+    "hidpi": 0,
+    "restricted": false,
+    "name": "Maps",
+    "alias": "my",
+    "darkModeEnabled": false,
+    "opacity": 100,
+    "maxresolution": 0.062517196,
+    "minzoom": 5
+    },
+    {
+    "template": "org.sarsoft.TracksOverlay",
+    "hideFromIndividuals": false,
+    "description": "",
+    "alphaOverlay": true,
+    "type": "DATA",
+    "iterations": "user",
+    "hidpi": 0,
+    "restricted": false,
+    "name": "Tracks",
+    "alias": "tracks",
+    "darkModeEnabled": false,
+    "opacity": 100,
+    "maxresolution": 0.062517196,
+    "minzoom": 5
+    },
+    {
+    "template": "org.sarsoft.SharedLocationsOverlay",
+    "hideFromIndividuals": true,
+    "configurations": [
+    [
+    [
+    "all",
+    "All"
+    ],
+    [
+    "{team}",
+    "Team"
+    ]
+    ]
+    ],
+    "description": "",
+    "alphaOverlay": true,
+    "type": "DATA",
+    "hidpi": 0,
+    "restricted": false,
+    "name": "Shared Locations",
+    "alias": "locs",
+    "darkModeEnabled": false,
+    "opacity": 100,
+    "maxresolution": 0.062517196,
+    "minzoom": 5
+    },
+    {
+    "template": "org.sarsoft.FeatureDetailsOverlay",
+    "hideFromIndividuals": false,
+    "description": "",
+    "alphaOverlay": true,
+    "type": "DATA",
+    "hidpi": 0,
+    "restricted": false,
+    "name": "MapBuilder Features",
+    "alias": "features",
+    "darkModeEnabled": false,
+    "opacity": 100,
+    "maxresolution": 0.062517196,
+    "minzoom": 5
+    },
+    {
+    "template": "/tile/custom/{Z}/{X}/{Y}.png?layers={V}",
+    "hideFromIndividuals": false,
+    "description": "",
+    "alphaOverlay": false,
+    "type": "TILE",
+    "hidpi": -1,
+    "restricted": false,
+    "name": "Custom",
+    "alias": "cl",
+    "darkModeEnabled": false,
+    "opacity": 0,
+    "maxresolution": 0.062517196,
+    "minzoom": 0
+    },
+    {
+    "template": "/tile/custom/{Z}/{X}/{Y}.png?layers={V}",
+    "hideFromIndividuals": false,
+    "description": "",
+    "alphaOverlay": true,
+    "type": "TILE",
+    "hidpi": -1,
+    "restricted": false,
+    "name": "Custom Overlay",
+    "alias": "clo",
+    "darkModeEnabled": false,
+    "opacity": 100,
+    "maxresolution": 0.062517196,
+    "minzoom": 0
+    },
+    {
+    "template": "/tile/gr/{Z}/{X}/{Y}.png?layers={V}",
+    "hideFromIndividuals": false,
+    "description": "",
+    "alphaOverlay": false,
+    "type": "TILE",
+    "hidpi": -1,
+    "restricted": false,
+    "name": "Geospatial Image",
+    "alias": "gr",
+    "darkModeEnabled": false,
+    "opacity": 0,
+    "maxresolution": 0.062517196,
+    "minzoom": 5
+    },
+    {
+    "template": "/tile/geoimage_{V}/{Z}/{X}/{Y}.png",
+    "hideFromIndividuals": false,
+    "description": "",
+    "alphaOverlay": false,
+    "type": "TILE",
+    "hidpi": 0,
+    "restricted": false,
+    "name": "GeoImage",
+    "alias": "geoimage",
+    "darkModeEnabled": false,
+    "opacity": 0,
+    "maxresolution": 0.062517196,
+    "minzoom": 5
+    },
+    {
+    "template": "https://img.caltopo.com/tile/mb_{V}/{Z}/{X}/{Y}{2x}.png",
+    "copyright": "CalTopo,<a href=\"http://www.openstreetmap.org/copyright\">OpenStreetMap contributors</a>",
+    "hideFromIndividuals": false,
+    "description": "",
+    "alphaOverlay": false,
+    "type": "TILE",
+    "hidpi": 2,
+    "restricted": false,
+    "name": "MapBuilder",
+    "alias": "mb",
+    "darkModeEnabled": false,
+    "opacity": 0,
+    "maxresolution": 0.50013757,
+    "minzoom": 0
+    },
+    {
+    "template": "https://img.caltopo.com/tile/mb_{V}/{Z}/{X}/{Y}{2x}.png",
+    "copyright": "CalTopo,<a href=\"http://www.openstreetmap.org/copyright\">OpenStreetMap contributors</a>",
+    "hideFromIndividuals": false,
+    "description": "",
+    "alphaOverlay": true,
+    "type": "TILE",
+    "hidpi": 2,
+    "restricted": false,
+    "name": "MapBuilder",
+    "alias": "mbo",
+    "darkModeEnabled": false,
+    "opacity": 100,
+    "maxresolution": 0.50013757,
+    "minzoom": 0
+    },
+    {
+    "template": "/tile/mbox_{V}/{Z}/{X}/{Y}{2x}.png",
+    "hideFromIndividuals": false,
+    "description": "",
+    "alphaOverlay": false,
+    "type": "TILE",
+    "hidpi": 1,
+    "restricted": false,
+    "name": "MapBox Raster",
+    "alias": "mbox",
+    "darkModeEnabled": false,
+    "opacity": 0,
+    "maxresolution": 0.031258598,
+    "minzoom": 0
+    },
+    {
+    "template": "/tile/mbox_{V}/{Z}/{X}/{Y}{2x}.png",
+    "hideFromIndividuals": false,
+    "description": "",
+    "alphaOverlay": true,
+    "type": "TILE",
+    "hidpi": 1,
+    "restricted": false,
+    "name": "MapBox Raster",
+    "alias": "mboxo",
+    "darkModeEnabled": false,
+    "opacity": 100,
+    "maxresolution": 0.031258598,
+    "minzoom": 0
+    },
+    {
+    "template": "/tile/mai_{V}/{Z}/{X}/{Y}.png",
+    "copyright": "NASA",
+    "hideFromIndividuals": false,
+    "description": "",
+    "alphaOverlay": false,
+    "type": "TILE",
+    "hidpi": -1,
+    "restricted": false,
+    "name": "MODIS Archive Imagery",
+    "alias": "mai",
+    "darkModeEnabled": false,
+    "opacity": 0,
+    "maxresolution": 256.07043,
+    "minzoom": 2
+    },
+    {
+    "template": "/tile/vs_{V}/{Z}/{X}/{Y}.png",
+    "hideFromIndividuals": false,
+    "description": "",
+    "alphaOverlay": true,
+    "type": "TILE",
+    "hidpi": -1,
+    "restricted": false,
+    "name": "Viewshed Analysis",
+    "alias": "vs",
+    "darkModeEnabled": false,
+    "opacity": 30,
+    "maxresolution": 8,
+    "minzoom": 5
+    },
+    {
+    "template": "https://img.caltopo.com/tile/sl_{V}/{Z}/{X}/{Y}.png",
+    "hideFromIndividuals": false,
+    "description": "",
+    "alphaOverlay": true,
+    "type": "TILE",
+    "hidpi": -1,
+    "restricted": false,
+    "name": "Sunlight",
+    "alias": "sl",
+    "darkModeEnabled": false,
+    "opacity": 30,
+    "maxresolution": 8,
+    "minzoom": 5
+    },
+    {
+    "template": "http://ctrelief.s3.amazonaws.com/relief/{V}/{Z}/{X}/{Y}.png",
+    "copyright": "CalTopo",
+    "hideFromIndividuals": false,
+    "description": "",
+    "alphaOverlay": false,
+    "type": "TILE",
+    "hidpi": 0,
+    "restricted": false,
+    "name": "Enhanced Relief",
+    "alias": "rb",
+    "darkModeEnabled": false,
+    "opacity": 0,
+    "maxresolution": 0.062517196,
+    "minzoom": 0
+    },
+    {
+    "template": "/tile/hs_{V}/{Z}/{X}/{Y}.png",
+    "copyright": "CalTopo",
+    "hideFromIndividuals": false,
+    "description": "",
+    "alphaOverlay": false,
+    "type": "TILE",
+    "hidpi": 0,
+    "restricted": false,
+    "name": "Custom Relief",
+    "alias": "hs",
+    "darkModeEnabled": false,
+    "opacity": 0,
+    "maxresolution": 0.062517196,
+    "minzoom": 0
+    },
+    {
+    "template": "/tile/sc_{V}/{Z}/{X}/{Y}.png",
+    "hideFromIndividuals": false,
+    "description": "",
+    "alphaOverlay": true,
+    "type": "TILE",
+    "hidpi": -1,
+    "restricted": false,
+    "name": "DEM Shading",
+    "alias": "sc",
+    "darkModeEnabled": false,
+    "opacity": 30,
+    "maxresolution": 2,
+    "minzoom": 0
+    },
+    {
+    "template": "/tile/sc_{V}/{Z}/{X}/{Y}.png",
+    "hideFromIndividuals": false,
+    "description": "",
+    "alphaOverlay": false,
+    "type": "TILE",
+    "hidpi": 0,
+    "restricted": false,
+    "name": "DEM Shading",
+    "alias": "scb",
+    "darkModeEnabled": false,
+    "opacity": 0,
+    "maxresolution": 2,
+    "minzoom": 0
+    },
+    {
+    "template": "/tile/demb/{Z}/{X}/{Y}.png?cfg={V}",
+    "hideFromIndividuals": false,
+    "description": "",
+    "alphaOverlay": false,
+    "type": "TILE",
+    "hidpi": 0,
+    "restricted": false,
+    "name": "Elevation",
+    "alias": "bdem",
+    "darkModeEnabled": false,
+    "opacity": 0,
+    "maxresolution": 2,
+    "minzoom": 0
+    },
+    {
+    "template": "/tile/cs/{Z}/{X}/{Y}.png?cfg={V}",
+    "hideFromIndividuals": false,
+    "description": "",
+    "alphaOverlay": false,
+    "type": "TILE",
+    "hidpi": 0,
+    "restricted": false,
+    "name": "Canopy Shade",
+    "alias": "cs",
+    "darkModeEnabled": false,
+    "opacity": 0,
+    "maxresolution": 32.008804,
+    "minzoom": 0
+    },
+    {
+    "template": "org.sarsoft.WFSOverlay",
+    "hideFromIndividuals": false,
+    "description": "",
+    "alphaOverlay": true,
+    "type": "DATA",
+    "hidpi": 0,
+    "restricted": false,
+    "name": "WFS",
+    "alias": "wfs",
+    "darkModeEnabled": false,
+    "opacity": 100,
+    "maxresolution": 0.062517196,
+    "minzoom": 5
+    },
+    {
+    "template": "/tile/cellcoverage_{V}/{Z}/{X}/{Y}{2x}.png",
+    "copyright": "CalTopo,FCC",
+    "hideFromIndividuals": false,
+    "configurations": [
+    [
+    [
+    "l",
+    "All"
+    ],
+    [
+    "a",
+    "AT&T"
+    ],
+    [
+    "t",
+    "T-Mobile"
+    ],
+    [
+    "v",
+    "Verizon"
+    ]
+    ]
+    ],
+    "description": "",
+    "alphaOverlay": true,
+    "type": "TILE",
+    "hidpi": 1,
+    "restricted": false,
+    "name": "Cell Coverage",
+    "alias": "cellcoverage",
+    "darkModeEnabled": false,
+    "opacity": 50,
+    "maxresolution": 0.50013757,
+    "minzoom": 0,
+    "info": "<a href=\"javascript:org.sarsoft.ShowCellCoverageDlg()\">Cell Coverage Info</a>"
+    },
+    {
+    "template": "org.sarsoft.SharedMapsOverlay",
+    "hideFromIndividuals": false,
+    "configurations": [
+    [
+    [
+    "all",
+    "All Data"
+    ],
+    [
+    "tracks",
+    "Tracks Only"
+    ],
+    [
+    "popular",
+    "Popular Maps"
+    ]
+    ]
+    ],
+    "description": "",
+    "alphaOverlay": true,
+    "type": "DATA",
+    "hidpi": 0,
+    "restricted": false,
+    "name": "Shared CalTopo Maps",
+    "alias": "shared",
+    "darkModeEnabled": false,
+    "opacity": 100,
+    "maxresolution": 0.062517196,
+    "minzoom": 5
+    }
+    ],
+    "layers_deprecated": {
+    "goesfire": "modis_g"
+    },
+    "default_lng": -98.4
+    },
+    "constantsLoaded": true
+    }
