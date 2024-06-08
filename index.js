@@ -49,20 +49,34 @@ const modifyHTML = (html, baseUrl) => {
            $(element).attr(attr, `https://sartopo.com${url}`);
         }
     });
-     
-   
-   
+
+        
+    //console.log($.html());
     return $.html();
 };
 // JavaScript 응답을 수정하는 함수
 function modifyJS(js, baseURL) {
     
-    return js.replace(/(['"])\/sideload([^'"]*?)(['"])/g, (match, p1, p2, p3) => {
+    // Replace "/sideload" URLs
+    js = js.replace(/(['"])\/sideload([^'"]*?)(['"])/g, (match, p1, p2, p3) => {
         if (!p2.startsWith('http')) {
             return p1 + baseURL + '/sideload' + p2 + p3;
         }
         return match;
     });
+
+    // Replace "/static/images" URLs
+    js = js.replace(/(['"])\/static\/images([^'"]*?)(['"])/g, (match, p1, p2, p3) => {
+        if (!p2.startsWith('http')) {
+            return p1 + "http://sartopo.com/static/images" + p2 + p3;
+        }
+        return match;
+    });
+
+   // Replace width: 100% with width: 70% if found in the page_main element
+    js = js.replace(/(<div\s+id="page_main"\s+style="[^"]*?\bwidth:\s*?)100%(;[^"]*?"\s*>)/g, '$180%$2');
+
+    return js;
 }
 
 function downloadAndSendFile(req, res) {
@@ -210,36 +224,27 @@ app.get('/proxy', async (req, res) => {
 
                 
                 const modifiedHTML = modifyHTML(response.data, REMOTE_SERVER_URL);
-                // HTML 추가
-
-                                // HTML에 CSS 추가
-                const chatCSS = `
-                <style>
-                    #page_main {
-                        float: left;
-                        width: 70%; /* 지도 컨테이너의 너비 */
-                    }
-
-                    #chat-container {
-                        float: right;
-                        width: 30%; /* 채팅 컨테이너의 너비 */
-                    }
-                </style>
-                `;
+              
                 const chatHTML = `
-                    <div style="float: right; width: 30%;">
-                        <h2>Chat</h2>
-                        <ul id="messages"></ul>
-                        <form id="message-form">
-                            <input id="message-input" autocomplete="off">
-                            <button>Send</button>
+                   <div style="float: right;width:20%;height: 105%";display:flex;>
+                        <h2 style="text-align: center; font-size: 12px; background-color: #4CAF50">Chat</h2>
+                        <div id="chat-box" style="border: 1px solid #ccc; height: 80%;border-radius: 5px; padding: 10px; background-color: #f9f9f9;">
+                            
+                        </div>
+                        <ul id="messages" style="list-style-type: none; padding: 0; margin: 0;"></ul>
+                        <form id="message-form" style="margin-top: 10px;">
+                            <input type="text" id="message-input" autocomplete="off" style="width: calc(100% - 90px); padding: 5px; border: 1px solid #ccc; border-radius: 3px 0 0 3px; float: left; margin-right: 5px;">
+                            <button style="width: 70px; padding: 5px; border: none; background-color: #4CAF50; color: white; border-radius: 0 3px 3px 0; float: left;">Send</button>
                         </form>
+
+
                     </div>
+
                 `;
 
                 
                 // Modify HTML with chat container CSS and HTML
-                let finalHTML = modifiedHTML + chatCSS  + chatHTML;
+                let finalHTML = modifiedHTML + chatHTML;
                 
 
                 
