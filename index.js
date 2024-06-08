@@ -33,10 +33,11 @@ app.get('/', (req, res) => {
 const modifyHTML = (html, baseUrl) => {
     const $ = cheerio.load(html);
      
+ 
     $('link[href], script[src], img[src]').each((i, element) => {
         const attr = element.tagName === 'link' ? 'href' : 'src';
         const url = $(element).attr(attr);
-        console.log(url);
+       
         if (url && !url.startsWith('http')) { // 상대 경로가 아닌 경우 모두 수정
             $(element).attr(attr, `${baseUrl}${url}`);
         }
@@ -48,14 +49,14 @@ const modifyHTML = (html, baseUrl) => {
            $(element).attr(attr, `https://sartopo.com${url}`);
         }
     });
-
+     
    
-
+   
     return $.html();
 };
 // JavaScript 응답을 수정하는 함수
 function modifyJS(js, baseURL) {
-    console.log(baseURL);
+    
     return js.replace(/(['"])\/sideload([^'"]*?)(['"])/g, (match, p1, p2, p3) => {
         if (!p2.startsWith('http')) {
             return p1 + baseURL + '/sideload' + p2 + p3;
@@ -69,7 +70,7 @@ function downloadAndSendFile(req, res) {
    
     // 원격 서버의 파일 URL
     const remoteFileUrl = 'https://sartopo.com/static/images/' + requestedFile;
-    console.log(remoteFileUrl);
+   
     // HTTP GET 요청 보내기
     https.get(remoteFileUrl, (response) => {
         let fileData = '';
@@ -109,6 +110,7 @@ app.get('/sideload/constants.json', async (req, res) => {
         const response = await axios.get(`${EXTERNAL_SERVER_URL}?ts=${ts}`);
         
         // 응답 데이터를 클라이언트에게 전달
+        res.setHeader('Content-Type', 'application/json');
         res.json(response.data);
     } catch (error) {
         console.error('Error fetching data:', error);
@@ -139,12 +141,13 @@ app.post('/api/v0/userdata', async (req, res) => {
     try {
         const requestData = req.body; // 클라이언트로부터 받은 데이터
         // JSON 데이터를 "json=" 스타일로 인코딩
-        const encodedData = querystring.stringify({ json: JSON.stringify(requestData) });
+       
+        const encodedData = querystring.stringify(requestData);
 
         // 인코딩된 데이터를 클라이언트에게 전송
         res.setHeader('Content-Type', 'application/json');
     
-        console.log(encodedData);
+      
         // sartopo.com 서버로 전달할 요청 정보 설정
         const requestOptions = {
             method: 'POST',
@@ -154,22 +157,21 @@ app.post('/api/v0/userdata', async (req, res) => {
 
         // sartopo.com 서버로 요청 보내기
         const response = await axios(requestOptions);
+        const jsonResponse = JSON.stringify(response.data);
+        res.json(jsonResponse);
 
-        // sartopo.com 서버에서 받은 데이터를 클라이언트에게 전달
-        res.json(response.data);
     } catch (error) {
         console.error('Error fetching data:', error);
         res.status(500).send('Internal Server Error');
     }
 });
 
-app.use('/proxy', async (req, res) => {
+
+app.get('/proxy', async (req, res) => {
     try {
         const { method, url, headers, body } = req;
 
         // 원격 서버로 전달할 요청 정보 설정
-
-
         const headersartopo = {
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
             'Accept-Encoding': 'gzip, deflate, br, zstd',
@@ -196,27 +198,64 @@ app.use('/proxy', async (req, res) => {
             headers: {
                 headersartopo,
                 host: 'sartopo.com',
-                
             },
             data: body,
         };
        
-        
         // 원격 서버에 요청 보내기
         const response = await axios(requestOptions);
-        
-        
+      
         if (response.headers['content-type']) {
             if (response.headers['content-type'].includes('text/html')) {
+
+                
                 const modifiedHTML = modifyHTML(response.data, REMOTE_SERVER_URL);
-                res.setHeader('Content-Type', 'text/html');
-                res.send(modifiedHTML);
+                // HTML 추가
+
+                                // HTML에 CSS 추가
+                const chatCSS = `
+                <style>
+                    #page_main {
+                        float: left;
+                        width: 70%; /* 지도 컨테이너의 너비 */
+                    }
+
+                    #chat-container {
+                        float: right;
+                        width: 30%; /* 채팅 컨테이너의 너비 */
+                    }
+                </style>
+                `;
+                const chatHTML = `
+                    <div style="float: right; width: 30%;">
+                        <h2>Chat</h2>
+                        <ul id="messages"></ul>
+                        <form id="message-form">
+                            <input id="message-input" autocomplete="off">
+                            <button>Send</button>
+                        </form>
+                    </div>
+                `;
+
+                
+                // Modify HTML with chat container CSS and HTML
+                let finalHTML = modifiedHTML + chatCSS  + chatHTML;
+                
+
+                
+                
+                // 수정된 HTML을 클라이언트로 전송
+                res.send(finalHTML);
+                
+              
+               
             } else if (response.headers['content-type'].includes('application/javascript')) {
                 const modifiedJS = modifyJS(response.data, REMOTE_SERVER_URL);
                 res.setHeader('Content-Type', 'application/javascript');
                 res.send(modifiedJS);
             } else {
                 res.send(response.data);
+                
             }
         } else {
             res.send(response.data);
@@ -224,8 +263,10 @@ app.use('/proxy', async (req, res) => {
     } catch (error) {
         console.error('Proxy Error:', error);
         res.status(500).send('Internal Server Error');
-    }
+    } 
+    
 });
+
 // 특정 경로의 JS 파일을 수정하여 전달하는 미들웨어
 app.get('/static/js/main.js', async (req, res) => {
 
