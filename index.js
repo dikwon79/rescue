@@ -3,7 +3,6 @@ const axios = require('axios');
 const bodyParser = require('body-parser');
 const cheerio = require('cheerio');
 const cors = require('cors'); // cors 모듈 추가
-const { createProxyMiddleware } = require('http-proxy-middleware');
 const path = require('path');
 const app = express();
 const PORT = 3000;
@@ -49,7 +48,7 @@ const modifyHTML = (html, baseUrl) => {
            $(element).attr(attr, `https://sartopo.com${url}`);
         }
     });
-
+    
         
     //console.log($.html());
     return $.html();
@@ -76,9 +75,20 @@ function modifyJS(js, baseURL) {
    // Replace width: 100% with width: 70% if found in the page_main element
     js = js.replace(/(<div\s+id="page_main"\s+style="[^"]*?\bwidth:\s*?)100%(;[^"]*?"\s*>)/g, '$180%$2');
 
+     // Replace "/account/oidclogin" URLs
+    js = js.replace(/(['"])\/account\/oidclogin(['"])/g, (match, p1, p2) => {
+        return p1 + "https://sartopo.com/account/oidclogin" + p2;
+    });
+
     return js;
 }
+function modicookie(js, baseURL) {
+    
+    // Replace "/sideload" URLs
+    return js.replace(/https:\/\/caltopo\.com/g, 'http://localhost:3000');
+    
 
+}
 function downloadAndSendFile(req, res) {
     const requestedFile = req.url.slice(16); // /static/images/ 이후의 파일 경로
    
@@ -131,6 +141,17 @@ app.get('/sideload/constants.json', async (req, res) => {
         res.status(500).send('Internal Server Error');
     }
 });
+// Route to get account details by ID
+app.get('/sideload/account/:account_id.json', (req, res) => {
+    const accountId = parseInt(req.params.account_id);
+    const account = accounts.find(acc => acc.id === accountId);
+
+    if (account) {
+        res.json(account);
+    } else {
+        res.status(404).json({ error: 'Account not found' });
+    }
+});
 app.get('/static/js/cookie-controls-1.js', async (req, res) => {
     try {
         // 외부 URL에서 파일을 가져옵니다.
@@ -143,8 +164,14 @@ app.get('/static/js/cookie-controls-1.js', async (req, res) => {
         res.set('Pragma', 'no-cache');
         res.set('Expires', '0');
         res.set('Content-Type', 'application/javascript');
-              
-        res.send(response.data);
+        
+        const modifiedJS = modicookie(response.data, 'http://localhost:3000');
+      
+       
+        console.log(modifiedJS);
+        res.setHeader('Content-Type', 'text/html');
+        res.send(modifiedJS); // HTML 응답 전송
+       
     } catch (error) {
         console.error('Error fetching file:', error);
         res.status(500).send('Internal Server Error');
@@ -180,7 +207,48 @@ app.post('/api/v0/userdata', async (req, res) => {
     }
 });
 
+// app.post('/account/oidclogin', async (req, res) => {
+//     try {
+//         const requestData = req.body; // 클라이언트로부터 받은 데이터
+//         // JSON 데이터를 "json=" 스타일로 인코딩
+       
+//         //console.log(requestData);
 
+//         // 인코딩된 데이터를 클라이언트에게 전송
+//         res.setHeader('Content-Type', 'application/json');
+    
+      
+//         // // sartopo.com 서버로 전달할 요청 정보 설정
+//         const requestOptions = {
+//             domain: requestData.domain,
+//             url: requestData.url.replace('http://localhost:3000/proxy', 'https://sartopo.com/map.html'),
+//             clientstate: requestData.clientstate,
+//             signup: requestData.signup,
+//         };
+        
+//         const encodedData = querystring.stringify(requestOptions);
+//         //console.log(encodedData);
+//         const request = {
+//             method: 'POST',
+//             url: 'https://sartopo.com/account/oidclogin',
+//             data: encodedData,
+//         };
+
+//         const response = await axios(request);
+
+
+//         const modifiedJS = modifyHTML(response.data, 'https://sartopo.com');
+      
+       
+//         console.log(modifiedJS);
+//         res.setHeader('Content-Type', 'text/html');
+//         res.send(modifiedJS); // HTML 응답 전송
+
+//     } catch (error) {
+//         console.error('Error fetching data:', error);
+//         res.status(500).send('Internal Server Error');
+//     }
+// });
 app.get('/proxy', async (req, res) => {
     try {
         const { method, url, headers, body } = req;
